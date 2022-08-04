@@ -277,7 +277,7 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-    content: "Audit & Work Experience";
+    content: "Work Experience";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -314,7 +314,7 @@ section .title::after{
 /* skills section styling */
 
 .skills .title::after{
-    content: "what i know";
+    content: "what i do";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -322,7 +322,7 @@ section .title::after{
 .skills .skills-content .left .text{
     font-size: 20px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .skills .skills-content .left p{
     text-align: justify;
@@ -334,7 +334,7 @@ section .title::after{
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
-    margin-top: 20px;
+    margin-top: 40px;
     border-radius: 6px;
     border: 2px solid orange;
     transition: all 0.3s ease;
