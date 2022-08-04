@@ -316,13 +316,17 @@ section .title::after{
 .skills .title::after{
     content: "what i do";
 }
+
+.skills .title::after1{
+    content: "what i know";
+}
 .skills .skills-content .column{
     width: calc(50% - 30px);
 }
 .skills .skills-content .left .text{
     font-size: 20px;
     font-weight: 600;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .skills .skills-content .left p{
     text-align: justify;
@@ -334,7 +338,7 @@ section .title::after{
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
-    margin-top: 40px;
+    margin-top: 20px;
     border-radius: 6px;
     border: 2px solid orange;
     transition: all 0.3s ease;
