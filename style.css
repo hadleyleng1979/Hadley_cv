@@ -317,7 +317,7 @@ section .title::after{
     content: "what i do";
 }
 
-.skills .title::after1{
+.skills1 .title::after{
     content: "what i know";
 }
 .skills .skills-content .column{
